@@ -151,4 +151,9 @@ If your servers are running on different hosts or ports, you will need to update
     python client.py
     ```
 
+9. **Hit the API**
+    ```bash
+     {{url_name}}status_counts?start_time=1723209956&end_time=1723209959
+     ```
+
 The client will start sending messages every second, and the server will process and store these messages.
