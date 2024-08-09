@@ -148,7 +148,7 @@ If your servers are running on different hosts or ports, you will need to update
     In a separate terminal, start the client script:
 
     ```bash
-    python script.py
+    python client.py
     ```
 
 The client will start sending messages every second, and the server will process and store these messages.
